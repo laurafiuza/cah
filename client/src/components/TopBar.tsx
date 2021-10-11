@@ -15,9 +15,6 @@ export function TopBar() {
           { isDesktopOrLaptop &&
             <ToMain href="/">
               <span>Cards Against Humanity</span>
-              <ToMainBottom>
-                NFT <Handshaking>🤝</Handshaking> Exchange
-              </ToMainBottom>
             </ToMain>
           }
           <HeaderNavLinks>

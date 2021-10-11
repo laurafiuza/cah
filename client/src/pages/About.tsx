@@ -1,6 +1,6 @@
 import React, {useContext} from 'react'
 import { Container, ContentBlock, ContentRow, MainContent, Section } from '../components/base/base'
-import { Text, } from '../typography/Text'
+import { Text } from '../typography/Text'
 import { GitHubLink, EtherscanContractLink } from '../helpers'
 import { DoubleTroubleContext } from '../DoubleTrouble';
 

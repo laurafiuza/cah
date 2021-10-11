@@ -8,7 +8,6 @@ import { About } from './pages/About'
 import { Get } from './pages/Get'
 import { All } from './pages/All'
 import { Start } from './pages/Start'
-import { Patrons } from './pages/Patrons'
 import { ViewNFT } from './pages/ViewNFT'
 import { NotificationsList } from './components/Transactions/History'
 
