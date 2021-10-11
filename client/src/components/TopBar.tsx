@@ -14,24 +14,24 @@ export function TopBar() {
         <HeaderNav>
           { isDesktopOrLaptop &&
             <ToMain href="/">
-              <span>DoubleTrouble</span>
+              <span>Cards Against Humanity</span>
               <ToMainBottom>
                 NFT <Handshaking>🤝</Handshaking> Exchange
               </ToMainBottom>
             </ToMain>
           }
           <HeaderNavLinks>
-            <HeaderLink activeClassName="active-page" to="/all">
+            <HeaderLink activeClassName="active-page" to="/get">
               {' '}
-              All NFTs{' '}
+              Get cards{' '}
             </HeaderLink>
-            <HeaderLink activeClassName="active-page" to="/list">
+            <HeaderLink activeClassName="active-page" to="/start">
               {' '}
-              List your NFT{' '}
+              Start game{' '}
             </HeaderLink>
-            <HeaderLink activeClassName="active-page" to="/patrons">
+            <HeaderLink activeClassName="active-page" to="/games">
               {' '}
-              Patron Tokens{' '}
+              All games{' '}
             </HeaderLink>
           </HeaderNavLinks>
         </HeaderNav>
