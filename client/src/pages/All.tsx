@@ -1,4 +1,4 @@
-import { Container, ContentBlock,  MainContent, Section, SectionRow } from '../components/base/base'
+import { Container,  MainContent, Section, SectionRow } from '../components/base/base'
 import { Title } from '../typography/Title'
 
 

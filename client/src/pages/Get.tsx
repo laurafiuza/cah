@@ -1,7 +1,13 @@
+import { Button } from '../components/base/Button'
+
 export function Get() {
-  return (
+  const mint = () => {
     // TODO
-    null
+  }
+  return (
+    <Button onClick={mint} style={{padding: 5, marginTop: 10}}>
+      Mint new pack of cards!
+    </Button>
   )
 }
 
